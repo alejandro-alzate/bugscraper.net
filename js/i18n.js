@@ -36,7 +36,7 @@ const translations = {
     "fr": {
         "language-name": "Français",
 
-        "button-steam-wishlist": "🐛 Ajouter sur Steam",
+        "button-steam-wishlist": "🐛 Wishlistez sur Steam",
         "button-steam": "🐛 Steam",
         "button-itchio": "🏪 itch.io",
         "button-discord": "🎮 Discord", 
