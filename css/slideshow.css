@@ -71,16 +71,18 @@
     height: 15px;
     width: 15px;
     margin: 0 2px;
-    background-color: #717171;
+    background-color: #8b9bb4;
     border-radius: 15px;
     display: inline-block;
 
-    transition: background-color 0.3s ease;
-    transition: width 0.3s ease;
+    transition: 
+        background-color 0.3s ease,
+        width 0.3s ease;
+    ;
 }
 
 .active, .dot:hover {
-    background-color: #bbb;
+    background-color: #ffffff;
 }
 
 .active {
