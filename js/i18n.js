@@ -24,12 +24,10 @@ const translations = {
         "screenshot-title": "Screenshots",
         
         "contact": "Contact:",
-        "email-disclaimer": "(I might respond under a different address)",
         "footer-source": "Source code for this website",
-        "footer-author": "Léo Bernard (Yolwoocle)",
         "banner-author": "Banner art by:",
 
-        "html-title-press": "Bugscraper · Presse",
+        "html-title-press": "Bugscraper · Press",
         "press-title": "Press",
         "press-article-list-title": "What people are saying about the game",
         "press-article-list-add-yours": "Want to add yours?",
@@ -58,9 +56,7 @@ const translations = {
         "screenshot-title": "Captures",
     
         "contact": "Contact :",
-        "email-disclaimer": "(les réponses peuvent provenir d'une adresse différente)",
         "footer-source": "Code source de ce site web",
-        "footer-author": "Léo Bernard (Yolwoocle)",
         "banner-author": "Illustration bannière par :",
         
         "press-title": "Presse",

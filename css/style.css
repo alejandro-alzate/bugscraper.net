@@ -107,6 +107,8 @@ a {
     border-radius: 15px;
     
     transition: all 0.3s ease;
+
+    color: var(--col-text);
 }
 
 .link-button:hover {
@@ -233,6 +235,10 @@ hr::after {
 }
 .shadow-yellow{
     text-shadow: 0px 2px 0px #feae34;
+}
+
+.rounded > img, .rounded > iframe {
+    border-radius: 12px;
 }
 
 /***** Logo & banner *****/
@@ -392,6 +398,10 @@ footer > * {
 }
 footer a {
     color: var(--col-text-light);
+}
+main a {
+    color: var(--col-text);
+    font-weight:600;
 }
 
 .unselectable {

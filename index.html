@@ -33,14 +33,14 @@
 
   <body>
     <div class="banner-container unselectable">
-      <img class="banner" src="image/banner.png" alt="Bugscraper logo background">
+      <img class="banner" src="image/en_website_banner.png" alt="Bugscraper logo background">
       <div class="banner-fadeout"></div>
     </div>
     
     <div class="page-content" id="page">
       <header class="center unselectable">        
         <div class="logo-container unselectable">
-          <img class="logo float" src="image/logo.png" alt="Bugscraper logo">
+          <img class="logo float" src="image/logo/en_library_logo.png" alt="Bugscraper logo">
         </div>
 
         <div class="locale-container">
@@ -83,9 +83,6 @@
             <a class="link" href="https://github.com/Yolwoocle/bugscraper">
               <button data-i18n-key="button-github" class="link-button padding-m">😺 GitHub</button>
             </a>
-            <a class="link" href="mailto:leo@yolwoocle.com">
-              <button data-i18n-key="button-email" class="link-button padding-m">✉️ Email</button>
-            </a>
             <a class="link" href="./resources/bugscraper_presskit_v3.zip">
               <button data-i18n-key="button-press-kit" class="link-button padding-m">📰 Download the press kit</button>
             </a>
@@ -99,12 +96,24 @@
       <hr class="hr-2">
 
       <main class="center">
+        <div class="rounded" style="aspect-ratio: 16/9; height: fit-content;">
+          <iframe width="560" height="315" style="width: 100%; height: 100%" src="https://www.youtube-nocookie.com/embed/szQJTaI0bfE?si=F9VFHFzq2YoRkPPN" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+
+        <hr class="hr-3">
+
+        <p data-i18n-key="desc-1" class="shadow-yellow bigger">
+          Welcome to the bugscraper.
+        </p>
+        <div style="text-align: left;">
+          <p data-i18n-key="desc-2">
+            🐜 
+          </p>
+        </div>
+        
+
         <div>
-          
           <div class="slideshow-container unselectable">
-            <div class="slide" style="aspect-ratio: 16/9; height: fit-content;">
-              <iframe width="560" height="315" style="width: 100%; height: 100%" src="https://www.youtube-nocookie.com/embed/szQJTaI0bfE?si=F9VFHFzq2YoRkPPN" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-            </div>
             <div class="slide">
               <img src="image/screenshot/v4/1.png" style="width:100%">
             </div>
@@ -144,20 +153,10 @@
             <span class="dot" onclick="currentSlide(5)"></span>
             <span class="dot" onclick="currentSlide(6)"></span>
             <span class="dot" onclick="currentSlide(7)"></span>
-            <span class="dot" onclick="currentSlide(8)"></span>
           </div>
         </div>
 
-        <hr class="hr-3">
-
-        <p data-i18n-key="desc-1" class="shadow-yellow bigger">
-          Welcome to the bugscraper.
-        </p>
         <div style="text-align: left;">
-          
-          <p data-i18n-key="desc-2">
-            🐜 
-          </p>
           <p data-i18n-key="desc-long-1">
             🐜 
           </p>
@@ -177,9 +176,29 @@
 
         <div id="links-bottom" class="unselectable">
         </div>
-        
-        <br class="">
 
+        <hr class="hr-1">
+
+        <div style="text-align: center;">
+          <p>
+            <b>A game by: </b><br>
+          </p>
+          <p>
+            <a href="https://yolwoocle.com">Léo Bernard</a><br> 
+            <a href="">Alexandre Mercier (OLX)</a><br> 
+            <a href="">Martin Domergue</a><br> 
+          </p>
+          <p>
+            <span data-i18n-key="banner-author"></span> 
+            <a href='https://caridescent.carrd.co/'>caridescent</a>
+          </p>
+          <p>
+            <a href="https://ninesliced.com">
+              <img src="image/ninesliced_logo.png" alt="Ninesliced logo" style="width: 30%"/>
+            </a>
+          </p>
+        </div>
+        
       </main>
       
     </div>
@@ -187,21 +206,10 @@
     <footer class="center">
       <p>
         <b data-i18n-key="contact"></b> 
-        <a href="mailto:leo@yolwoocle.com">&#108eo&#64yo&#108woocl&#101&#46com</a><br>
-        <span data-i18n-key="email-disclaimer"></span>
-      </p>
-      <p>
-        <span data-i18n-key="banner-author"></span> 
-        <a href='https://caridescent.carrd.co/'>caridescent</a>
+        <a href="mailto:ninesliced@gmail.com">nin&#101s&#108ic&#101d&#64gmail&#46com</a><br>
       </p>
       <p>
         <a data-i18n-key="footer-source" href="https://github.com/bugscraper/bugscraper.net">Source code for this website</a>
-      </p>
-      <p>
-        &copy; <script>document.write(new Date().getFullYear())</script> 
-        <a data-i18n-key="footer-author" href="https://yolwoocle.com">
-          Léo Bernard (Yolwoocle)
-        </a> 
       </p>
 
     </footer>
