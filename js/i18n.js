@@ -64,6 +64,42 @@ const translations = {
         "press-article-list-add-yours": "Vous souhaitez ajouter votre article?",
         "press-article-list-add-yours-email": "Envoyez-moi un email!",
     },
+
+    // "zh-hans": {
+    //     "language-name": "简体中文",
+
+    //     "button-steam-wishlist": "🐛 在 Steam 收藏愿望单",
+    //     "button-steam": "🐛 Steam",
+    //     "button-itchio": "🏪 itch.io",
+    //     "button-discord": "🎮 Discord",
+    //     "button-twitter": "🐦 Twitter",
+    //     "button-bluesky": "🦋 Bluesky",
+    //     "button-instagram": "📷 Instagram",
+    //     "button-github": "😺 GitHub",
+    //     "button-press": "🗞️ 相关文章",
+    //     "button-press-kit": "📰 下载媒体资料包",
+    //     "button-email": "✉️ 电子邮件",
+
+    //     "desc-1": "欢迎来到 Bugscraper。",
+    //     "desc-2": "<b>Bugscraper</b> 是一款支持 <b>单人</b> 或 <b>本地合作</b> 的 <b>Roguelike 射击游戏</b>。一路向上，冲向你那恶名昭彰的老板办公室，对抗一层又一层的敌人。利用各种武器与升级，把敌人统统清扫干净，向顶层进发！",
+
+    //     "desc-long-1": "🐜 扮演 <b>Mio 和他的伙伴们</b>，支持 <b>单人</b> 或 <b>最多 4 人的本地合作</b>。",
+    //     "desc-long-2": "🐛 挑战 <b>上百波</b> <b>狂暴敌人</b> 与 <b>强大 Boss</b>。",
+    //     "desc-long-3": "🐝 收集 <b>新武器</b>，获取 <b>强力升级</b>，为下一层的战斗做好准备！",
+    //     "desc-long-4": "🐞 <b>闯上大楼顶层</b>，和你的老板一决胜负！",
+
+    //     "screenshot-title": "截图",
+
+    //     "contact": "联系方式：",
+    //     "footer-source": "本网站的源代码",
+    //     "banner-author": "横幅插画：",
+
+    //     "html-title-press": "Bugscraper · 媒体",
+    //     "press-title": "媒体",
+    //     "press-article-list-title": "媒体对本游戏的评价",
+    //     "press-article-list-add-yours": "想添加你的文章？",
+    //     "press-article-list-add-yours-email": "给我发邮件！"
+    // }
 }
 
 const defaultLocale = "en";
